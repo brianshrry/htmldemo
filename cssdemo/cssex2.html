@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class and CSS Selector</title>
+        <style>
+            /* element selector */
+            p {
+                font-size: 18px;
+                font-style: italic;
+            }
+            /* id selector */
+            #id-selector {
+                color: darkgoldenrod;
+            }
+            /* universal selector */
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: xx-large;
+            }
+            /* css for input */
+            input[type="text"] {
+                width: 400px;
+                padding: 10px;
+                border: 2px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <p>this is an example of an element selector in css</p>
+        <p id="id-selector">this is an example of id selector</p>
+        <div>text from div</div>
+        <input type="text" placeholder="enter your name">
+    </body>
+</html>

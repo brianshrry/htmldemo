@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic website</title>
+        <style>
+            h1{
+                font-style: italic;
+                background-color: brown;
+            }
+            div{
+                color: mediumpurple;
+            }
+            fieldset{
+                border: 5px solid red;
+            }
+            legend{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: beige;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to this basic website. It's here to test various features of HTML and CSS.</h1>
+        <form action="post">
+            <div>
+                <label for="name">Enter your name:</label>
+                <input type="text" placeholder="name here" required>
+                <br>
+
+                <label for="options1">select an option</label>
+                <select name="options1" id="options1">
+                    <option value="1">option 1</option>
+                    <option value="2">option 2</option>
+                    <option value="3">option 3</option>
+                </select>
+                <br>
+
+                <label for="number">Pick a number:</label>
+                <input type="number" name="number" id="number">
+
+                <fieldset>
+                    <legend>Select an option below:</legend>
+
+                    <div>
+                        <input type="radio" name="radios" id="radio1" checked><label for="radio1">Option 1</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radios" id="radio2"><label for="radio2">Option 2</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radios" id="radio3"><label for="radio3">Option 3</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <a href="basic.html">Sample link</a>
+            <br>
+
+            <label for="checkbox">Would you like to sign up for our newsletter?</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <br>
+
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </body>
+</html>

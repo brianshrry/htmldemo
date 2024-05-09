@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dom demo</title>
+    </head>
+    <body>
+        <h1 id="one">this is a dom demo</h1>
+        <p>welcome to this demo</p>
+        <p>this is a demo where you will access html elements in javascript</p>
+
+        <script type="text/javascript">
+            var text = document.getElementById("one").innerHTML;
+            alert("content is: " +text)
+            console.log("my content on h1 tag is: "  + text)
+        </script>
+    </body>
+</html>
